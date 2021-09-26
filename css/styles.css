@@ -2,18 +2,17 @@
  background-color:;
  color: ;
  opacity: 1;
-
 }
 
 
 .footer{
-
 }
+
+
 
 header {
   position: relative;
   background-color: black;
-
   width: 100%;
   overflow: hidden;
 }
@@ -32,6 +31,22 @@ header video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
+
+header img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+
+  object-fit: cover;
+
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
 
 header .container {
   position: relative;
@@ -56,7 +71,6 @@ header .overlay {
 
 @media only screen and (min-width: 600px) {
   header {
-
     height: 75vh;
     min-height: 25rem;
      /* background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll; */
@@ -65,4 +79,8 @@ header .overlay {
   header video {
     height: 100%;
   }
+  header img{
+    height: 100%;
+  }
+
 }

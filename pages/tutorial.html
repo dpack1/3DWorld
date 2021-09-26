@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/styles.css" />
+  <title>Getting started</title>
+</head>
+
+<body>
+  <header>
+
+    <div class="overlay"></div>
+
+    <!-- The HTML5 video element that will create the background video on the header -->
+    <img src="/images/level bed 2.jpeg" alt="Array of Filament">
+
+    <!-- The header content -->
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">Getting started</h1>
+        </div>
+      </div>
+    </div>
+    </header>
+
+    <!-- Page section example for content below txhe video header -->
+    <section class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p>A level build plate shows a consistent first layer, resulting in nicely squished lines all the way through. On the other hand, here are a few common signs of a non-level bed:</p>
+
+          <ul>
+            <li>Filament isnt sticking to the build surface in all places</li>
+            <li>No filament is leaving the nozzle in some places</li>
+            <li>Filament height and width varies across the build surface</li>
+            <li>The gap between lines of filament varies across the build surface</li>
+          </ul>
+
+          <img src="/images/3d printing bed leveling guide.jpeg" alt="level bed" width="75%" style="margin:20px">
+          <p></p>
+          <p>Automatic bed leveling is quite a common feature in consumer FDM 3D printers. Most machines with auto-leveling, however, use a contactless inductive sensor which is simple to install, operate, and configure. These inductive probes work well with a metal build plate, but build platforms made of other common materials, such as glass, are practically invisible to inductive sensors.</p></p>
+          <p>That might have been the way <code>BLTouch</code> sensors came onto your radar: If you use a non-metal bed but also want auto-leveling, these sensors are a great option. You also could have thought about adding one for its accuracy. After all, the original BLTouch readings have one of the lowest standard deviations of all auto-leveling sensor types.</p>
+          <img src="/images/bl.jpeg" alt="bltouch" style="float:right" style="margin:50px">
+          <p></p>
+          <p>The sensor itself is fairly complex as far as bed sensors go. It consists of a microcontroller, a solenoid switch, and a pushpin probe that comes into contact with the bed. The original BLTouch uses a Hall sensor for high accuracy, and this sensor, in conjunction with the physical pushpin, is what allows it to be used with many bed types.</p>
+
+
+        </div>
+      </div>
+    </div>
+    </section>
+
+</body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+<!-- use bg-custom then define it in .navbar background-color -->
+<nav class="navbar fixed-top navbar-dark bg-custom">
+  <a class="navbar-brand" href="/index.html"><img src="/images/icons/icon3.png" alt="Home" height="60px "></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/printers.html">Printers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/filament.html">Filaments</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/tutorial.html">Gettings Started</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<nav class="navbar fixed-bottom navbar-light bg-custom">
+  <a class="navbar-footer" href="https://github.com/dpack1/3DWorld"><img src="/images/github.png" alt="GitHub" width=20%>
+</a>
+</nav>
+
+</html>

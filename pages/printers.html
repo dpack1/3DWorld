@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Metadata goes here -->
-    <title>3D Printing</title>
-  </head>
 
+<head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-  <meta name='viewport'     content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-
+  <link rel="stylesheet" href="/css/styles.css" />
+  <title>Printers</title>
 </head>
+
+<body>
 
 <header>
 
-  <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
   <div class="overlay"></div>
 
   <!-- The HTML5 video element that will create the background video on the header -->
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="/videos/ender3-video.mp4" type="video/mp4">
-  </video>
+  <img src="/images/printers/printers header.jpeg" alt="Array of Filament">
 
   <!-- The header content -->
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <h1 class="display-3">Welome to 3DWorld</h1>
-        <p class="lead mb-0">Learn all about 3D printing</p>
+        <h1 class="display-3">3D Printers</h1>
       </div>
     </div>
   </div>
-</header>
+  </header>
 
-<!-- Page section example for content below the video header -->
+  <!-- Page section example for content below the video header -->
+  <section class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+
+        <h6><code>Budget printer under $250</code></h6>
+        <h2>Ender 3 / Ender 3 Max</h2>
+        <img src="/images/printers/max.jpeg" alt="ender3-max" width="400px" style="float: center">
+
+        <ul>
+          <li>Best FDM budget printer</li>
+          <li>Open source and customability</li>
+          <li>Great starter printer</li>
+        </ul>
 
 
-  <body>
-    <section class="my-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2>What is 3D Printing?</h2>
-            <p>3D printing or additive manufacturing (AM) technologies create three-dimensional parts from computer-aided design (CAD) models by successively adding material layer by layer until physical part is created.</p>
-            <p>Today, professional, low-cost desktop and benchtop 3D printers accelerate innovation and support businesses in various industries including engineering, manufacturing, dentistry, healthcare, education, entertainment, jewelry, and audiology.</p>
-            <p class="mb-0">
-            </p>
-          </div>
-        </div>
+        <h6><code>Great quality printer under $1000</code></h6>
+        <h2>Original Prusa i3 MK3S+</h2>
+        <img src="/images/printers/prusa.jpg" alt="ender3-max" width="400px" style="float: center" style="margin: 20px">
+
+        <ul>
+          <li>Incredible print quality</li>
+          <li>Great community</li>
+          <li>Highly renounded</li>
+        </ul>
+
+          Read more at  <a href="https://https://all3dp.com/1/3d-printer-filament-types-3d-printing-3d-filament/">all3DP</a>
+        </p>
       </div>
-    </section>
-    </body>
+    </div>
+  </div>
+  </section>
+
+
+</body>
+
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
 <!-- use bg-custom then define it in .navbar background-color -->
@@ -81,7 +94,4 @@
 </a>
 </nav>
 
-
-<!-- <footer>
-  <p>GitHub: <a href="mailto:hege@example.com">hege@example.com</a></p>
-</footer> -->
+</html>
